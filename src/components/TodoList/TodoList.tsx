@@ -6,9 +6,7 @@ import styles from "./TodoList.module.scss";
 
 export const TodoList = () => {
     const todoList:iTodos[] = useAppSelector(state => state.todos);
-      
-
-    
+         
     return (
         <div className={styles.root}>
             <h3>Todo</h3>

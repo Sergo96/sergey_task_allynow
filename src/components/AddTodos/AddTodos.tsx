@@ -19,6 +19,8 @@ export const AddTodos = () => {
         dispatch(addTodo(todosText))
         setTodosText('')
     }
+
+    
     return (
         <>
             <form className={styles.root_label}>
