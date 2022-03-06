@@ -1,0 +1,40 @@
+@import '../../../variables';
+
+.root{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    padding: 20px 0;
+    border-bottom: 1px solid $hexColor;
+
+
+    label {
+        font-size: 18px;
+        line-height: 40px;
+        width: 237px;
+        padding: 0 0 0 11px;
+        color: $labelBlack;
+    }
+
+    .input_text {
+        width: 70%;
+        margin-right: 5px;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+
+        .edit:hover {
+            color: $hoverBlue;
+        }
+
+        .delete:hover{
+            color: $hoverRed;
+        }
+      }
+}
+

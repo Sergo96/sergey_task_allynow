@@ -1,0 +1,18 @@
+@import '../../variables.scss';
+
+.root_label {
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+    justify-content: space-between;
+
+
+    label{
+        color: $darkGray;
+        font-weight: 700;
+        font-size: 15px;
+        border-bottom: 2px solid $darkGray;
+        padding: 30px 0 10px;
+        margin: 0;
+    }
+  }
